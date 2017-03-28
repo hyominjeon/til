@@ -1,4 +1,4 @@
-# Tests
+# Types of tests
 
 ### Unit Test
 
