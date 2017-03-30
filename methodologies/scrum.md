@@ -13,9 +13,9 @@
 3. Team sets a sprint - a time-boxed period (usually 2-4 weeks) - to complete the work.
 
 4. Daily Scrum/Standup: Team meets everyday, no longer than 15 minutes, to quickly and transparently assess the progress by answering these questions:
- - What did I do yesterday?
- - What will I do today?
- - What are the blockers?
+  * What did I do yesterday?
+  * What will I do today?
+  * What are the blockers?
 
 5. Sprint review: Team present the completed work during the Sprint.
 
