@@ -1,5 +1,7 @@
 # Scrum
 
+### What is Scrum
+
 * Scrum is a simple, iterative, and incremental agile framework for managing product development.
 * Scrum accepts that customers' wants and needs can change during product development and that the problem cannot be fully defined.
 * Scrum focuses on delivering quickly to respond to new requirements, technologies, and market conditions.
