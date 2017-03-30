@@ -25,7 +25,7 @@
 
 7. Go to #2 and repeat until the product backlog is completed, budget is depleted, or a deadline arrives.
 
-### Scrum values
+### Values
 
 * Courage
 * Focus
