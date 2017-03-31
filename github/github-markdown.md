@@ -9,7 +9,6 @@
 __also bold__
 ```
 **bold**
-
 __also bold__
 
 ### Italic
@@ -19,7 +18,6 @@ __also bold__
 _also italic_
 ```
 *italic*
-
 _also italic_
 
 ### Strickthrough
@@ -39,9 +37,19 @@ _also italic_
 ### Link
 
 ```
-[link](www.google.com)
+[inline-style](www.google.com)
+[reference-style][this can be number or text]
+[link itself]
+
+[this can be number or text]: www.google.com
+[link itself]: www.google.com
 ```
-[link](www.google.com)
+[inline-style](www.google.com)
+[reference-style][this can be number or text]
+[link itself]
+
+[this can be number or text]: www.google.com
+[link itself]: www.google.com
 
 ## Lists
 
@@ -49,10 +57,12 @@ _also italic_
 
 ```
 1. one
-2. two
+  1. sub-one
+1. two
 ```
 1. one
-2. two
+  1. sub-one
+1. two
 
 ### Unordered
 
@@ -61,11 +71,13 @@ _also italic_
   * subpoint
 - same with
   - dashes
+  + and pluses
 ```
 * bullet point
   * subpoint
 - same with
   - dashes
+  + and pluses
 
 ### Task List
 
@@ -93,7 +105,7 @@ _also italic_
     }
 ```
 if (tooLazyToIndent) {
-	return useCodeFencing();
+    return useCodeFencing();
 }
 ```
 ````
@@ -102,7 +114,7 @@ if (tooLazyToIndent) {
     }
 ```
 if (tooLazyToIndent) {
-	return useCodeFencing();
+    return useCodeFencing();
 }
 ```
 
@@ -111,14 +123,14 @@ if (tooLazyToIndent) {
 ````
 ```java
 if (wantSyntaxHighlighting) {
-	return includeLanguage();
+    return includeLanguage();
 }
 ```
 ````
 
 ```java
 if (wantSyntaxHighlighting) {
-	return includeLanguage();
+    return includeLanguage();
 }
 ```
 
@@ -133,6 +145,10 @@ if (wantSyntaxHighlighting) {
 #### H4
 ##### H5
 ###### H6
+H1
+==
+H2
+--
 ```
 # H1
 ## H2
@@ -140,6 +156,10 @@ if (wantSyntaxHighlighting) {
 #### H4
 ##### H5
 ###### H6
+H1
+==
+H2
+--
 
 ### Quotes
 
@@ -152,14 +172,14 @@ if (wantSyntaxHighlighting) {
 
 ```
 Column 1 | Column 2
--------- | --------
-(r1, c1) | (r1, c2)
-(r2, c1) | (r2, c2)
+--------:|:-------:
+left | centered
+aligned | yay
 ```
 Column 1 | Column 2
--------- | --------
-(r1, c1) | (r1, c2)
-(r2, c1) | (r2, c2)
+--------:|:-------:
+left | centered
+aligned | yay
 
 ## Others
 
@@ -173,9 +193,17 @@ Column 1 | Column 2
 ### Images
 
 ```
-![image](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg)
+![inline](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "random picture")
+
+![reference][1]
+
+[1]: https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg
 ```
-![image](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg)
+![inline](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "random picture")
+
+![reference][1]
+
+[1]: https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "the same picture"
 
 ### SHA References
 
@@ -185,9 +213,7 @@ hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 ```
 24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-
 hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-
 hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 
 ### Issue References
@@ -198,7 +224,22 @@ hyominjeon#1
 hyominjeon/til#1
 ```
 #1
-
 hyominjeon#1
-
 hyominjeon/til#1
+
+### Horizontal Lines
+
+```
+Hyphens
+---
+Asterisks
+***
+Underscores
+___
+```
+Hyphens
+---
+Asterisks
+***
+Underscores
+___
