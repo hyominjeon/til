@@ -42,18 +42,22 @@ _also italic_
 
 ```
 [inline-style](www.google.com)
+
 [reference-style][this can be number or text]
+
 [link itself]
 
 [this can be number or text]: www.google.com
 [link itself]: www.google.com
 ```
-[inline-style](www.google.com)
+[inline-style](http://www.google.com)
+
 [reference-style][this can be number or text]
+
 [link itself]
 
-[this can be number or text]: www.google.com
-[link itself]: www.google.com
+[this can be number or text]: http://www.google.com
+[link itself]: http://www.google.com
 
 ## Lists
 
@@ -61,11 +65,11 @@ _also italic_
 
 ```
 1. one
-  1. sub-one
+   1. sub-one
 1. two
 ```
 1. one
-  1. sub-one
+   1. sub-one
 1. two
 
 ### Unordered
@@ -187,49 +191,20 @@ aligned | yay
 
 ## Others
 
-### Mentions
-
-```
-@hyominjeon
-```
-@hyominjeon
-
 ### Images
 
 ```
-![inline](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "random picture")
+![inline](https://github.com/hyominjeon/til/blob/master/github/sample-image.jpeg "random picture")
 
 ![reference][1]
 
-[1]: https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg
+[1]: https://github.com/hyominjeon/til/blob/master/github/sample-image.jpeg "the same random picture"
 ```
-![inline](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "random picture")
+![inline](https://github.com/hyominjeon/til/blob/master/github/sample-image.jpeg "random picture")
 
 ![reference][1]
 
-[1]: https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg "the same picture"
-
-### SHA References
-
-```
-24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-```
-24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
-
-### Issue References
-
-```
-#1
-hyominjeon#1
-hyominjeon/til#1
-```
-#1
-hyominjeon#1
-hyominjeon/til#1
+[1]: https://github.com/hyominjeon/til/blob/master/github/sample-image.jpeg "the same random picture"
 
 ### Horizontal Lines
 
