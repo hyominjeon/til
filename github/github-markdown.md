@@ -9,6 +9,7 @@
 __also bold__
 ```
 **bold**
+
 __also bold__
 
 ### Italic
@@ -18,6 +19,7 @@ __also bold__
 _also italic_
 ```
 *italic*
+
 _also italic_
 
 ### Strickthrough
@@ -85,7 +87,7 @@ _also italic_
 
 ### Multiple Line Code Block
 
-```
+````
     if (longerBlockOfCode) {
         return indentFourSpaces();
     }
@@ -94,7 +96,7 @@ if (tooLazyToIndent) {
 	return useCodeFencing();
 }
 ```
-```
+````
     if (longerBlockOfCode) {
         return indentFourSpaces();
     }
@@ -106,13 +108,14 @@ if (tooLazyToIndent) {
 
 ### Syntax Highlighting
 
-```
+````
 ```java
 if (wantSyntaxHighlighting) {
 	return includeLanguage();
 }
 ```
-```
+````
+
 ```java
 if (wantSyntaxHighlighting) {
 	return includeLanguage();
@@ -124,19 +127,19 @@ if (wantSyntaxHighlighting) {
 ### Headers
 
 ```
-# H
-## H
-### H
-#### H
-##### H
-###### H
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 ```
-# H
-## H
-### H
-#### H
-##### H
-###### H
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 ### Quotes
 
@@ -147,16 +150,6 @@ if (wantSyntaxHighlighting) {
 
 ### Tables
 
-```
-Column 1 | Column 2
--------- | --------
-(r1, c1) | (r1, c2)
-(r2, c1) | (r2, c2)
-```
-Column 1 | Column 2
--------- | --------
-(r1, c1) | (r1, c2)
-(r2, c1) | (r2, c2)
 ```
 Column 1 | Column 2
 -------- | --------
@@ -180,9 +173,9 @@ Column 1 | Column 2
 ### Images
 
 ```
-![image](https://octodex.github.com/images/yaktocat.png)
+![image](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg)
 ```
-![image](https://octodex.github.com/images/yaktocat.png)
+![image](https://static.pexels.com/photos/106144/rubber-duck-bath-duck-toys-costume-106144.jpeg)
 
 ### SHA References
 
@@ -192,16 +185,20 @@ hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 ```
 24fa920b32dd663ab7cef3d2269c5c93ea380c1f
+
 hyominjeon@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
+
 hyominjeon/til@24fa920b32dd663ab7cef3d2269c5c93ea380c1f
 
 ### Issue References
 
 ```
 #1
-hyomin#1
-hyomin/til#1
+hyominjeon#1
+hyominjeon/til#1
 ```
 #1
-hyomin#1
-hyomin/til#1
+
+hyominjeon#1
+
+hyominjeon/til#1
