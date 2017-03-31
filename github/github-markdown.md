@@ -6,18 +6,22 @@
 
 ```
 **bold**
+
 __also bold__
 ```
 **bold**
+
 __also bold__
 
 ### Italic
 
 ```
 *italic*
+
 _also italic_
 ```
 *italic*
+
 _also italic_
 
 ### Strickthrough
