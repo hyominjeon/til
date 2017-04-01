@@ -1,11 +1,11 @@
 # Java and Scala Collection Conversions
 
-### Implicit bidirectional conversion
+## Implicit bidirectional conversion
 
 supported in the JavaConverters object
 
 Scala | Java
-------|------
+:----:|:----:
 Iterator|Iterator
 Iterator|Enumeration
 Iterable|Iterable
@@ -15,7 +15,7 @@ Set|Set
 Map|Map
 ConcurrentMap|ConcurrentMap
 
-### example of usage
+### Example of usage
 
 ```scala
 import collection.JavaConverters._
@@ -31,11 +31,13 @@ Conversion works by setting up a "wrapper" object that forwards all operations t
 ### One way conversion from Scala to Java
 
 Scala | Java
-------|------
+:----:|:----:
 Seq|List
 mutable.Seq|List
 Set|Set
 Map|Map
+
+## Immutable in Java
 
 Because Java doesn't distinguish between mutable and immutable collections, a conversion from Scala immutable collections will yield a Java List where all mutation operations throw an "UnsupportedOperationException"
 
