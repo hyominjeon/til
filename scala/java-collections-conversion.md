@@ -1,7 +1,5 @@
 # Java and Scala Collection Conversions
 
-from [Scala Documentation](http://docs.scala-lang.org/overviews/collections/conversions-between-java-and-scala-collections.html)
-
 ### Implicit bidirectional conversion
 
 supported in the JavaConverters object
@@ -45,3 +43,5 @@ Because Java doesn't distinguish between mutable and immutable collections, a co
 val jul = List(1, 2, 3).asJava
 jul.add(7) -> throws java.lang.UnsupportedOperationException
 ```
+
+all are from [Scala Documentation](http://docs.scala-lang.org/overviews/collections/conversions-between-java-and-scala-collections.html)
