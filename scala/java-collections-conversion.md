@@ -28,7 +28,7 @@ val m: java.util.Map[String, Int] = HashMap("abc" -> 1, "hello" -> 2).asJava
 
 Conversion works by setting up a "wrapper" object that forwards all operations to the underlying collection object. So collections are never copied when converting between Java and Scala. If you do a round-trip conversion from a Java type to Scala type and back to Java type, you end up with the identical collection object you started with.
 
-### One way conversion from Scala to Java
+## One way conversion from Scala to Java
 
 Scala | Java
 :----:|:----:
