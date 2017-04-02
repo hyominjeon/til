@@ -1,5 +1,24 @@
 # Code Compete 2
 
+## Chapter 5: Design in Construction
+
+### 5.3: Design Building Blocks: Heuristics
+
+#### Find Real-World Objects
+
+Steps in designing with objects:
+1. Identify the objects and their attributes (methods and data).
+1. Determine what can be done to each object.
+1. Determine what each object is allowed to do to other objects.
+   * Which objects contain which other objects?
+   * Which objects can inherit from which other objects?
+1. Determine the parts of each object that will be visible to other objects.
+1. Define each object's public interfaces.
+
+When finished going through the steps to achieve a top-level object-oriented system organization:
+* Iterate on the top-level system organization to get a better organization of classes.
+* Iterate on each of the classes defined, driving the design of each class to a more detailed level.
+
 ## Chapter 9: The Pseudocode Programming Process
 
 ### 9.3: Constructing Routines by Using the PPP
@@ -24,11 +43,11 @@ entirely new design for a buggy routine pays off.
 
 ### 11.5 Standarized Prefixes
 
-* provides a terse but consistent and readable approach to naming data
+Provides a terse but consistent and readable approach to naming data
 
 #### User-Defined Type Abbreviations
 
-* identifies the data type of the object or variable being named
+Identifies the data type of the object or variable being named
 
 ##### Examples
 
@@ -47,7 +66,7 @@ Wn wnMain;
 
 #### Semantic Prefixes
 
-* describes how the variable or object is used
+Describes how the variable or object is used
 
 ##### Examples
 
