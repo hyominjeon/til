@@ -45,7 +45,7 @@ $ pwd
 ```
 $ ls
 Applications		Library			Sites			Desktop			Movies
-Documents		Music   Downloads		Pictures		Public
+Documents		Music		Downloads		Pictures		Public
 ```
 ```
 $ pwd
