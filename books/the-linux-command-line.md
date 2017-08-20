@@ -1,13 +1,15 @@
 # The Linux Command Line
 
-## Part 1 Learning the Shell
+## Part 1: Learning the Shell
 
-### Chapter 1 What is the Shell
+### 1. What is the Shell
 
+#### *date*: the current time and date
 ```
 $ date
 Sat Aug 19 21:01:13 PDT 2017
 ```
+#### *cal*: a calendar of the current month
 ```
 $ cal
     August 2017
@@ -18,6 +20,7 @@ Su Mo Tu We Th Fr Sa
 20 21 22 23 24 25 26
 27 28 29 30 31
 ```
+#### *df*: free space on disk drives
 ```
 $ df
 Filesystem    512-blocks      Used Available Capacity iused      ifree %iused  Mounted on
@@ -25,6 +28,7 @@ Filesystem    512-blocks      Used Available Capacity iused      ifree %iused  M
 devfs                373       373         0   100%     647          0  100%   /dev
 map -hosts             0         0         0   100%       0          0  100%   /net
 ```
+#### *exit*: end a terminal session
 ```
 $ exit
 logout
@@ -35,41 +39,49 @@ Saving session...
 
 [Process completed]
 ```
+or just close the window
 
-### Chapter 2 Navigation
+### 2. Navigation
 
+#### *pwd*: print working directory
 ```
 $ pwd
 /Users/hyomin
 ```
+#### *ls*: list the contents of the current working directory
 ```
 $ ls
 Applications		Library			Sites			Desktop			Movies
 Documents		Music		Downloads		Pictures		Public
 ```
+#### *cd*: change directory
 ```
 $ pwd
 /Users/hyomin
-$ cd /Users
-$ cd ..
+$ cd /Users   [or cd ..]
 $ pwd
 /Users
-```
-```
-$ pwd
-/Users
-$ cd ./hyomin
-$ cd hyomin
+$ cd ./hyomin   [or cd hyomin]
 $ pwd
 /Users/hyomin
 ```
+##### Change the working directory to previous working directory
 ```
 $ pwd
 /Users/hyomin
-$ cd ../..
+$ cd /
 $ pwd
 /
 $ cd -
+$ pwd
+/Users/hyomin
+```
+##### Change the working directory to home directory
+```
+$ cd /
+$ pwd
+/
+$ cd   [or cd ~]
 $ pwd
 /Users/hyomin
 ```
