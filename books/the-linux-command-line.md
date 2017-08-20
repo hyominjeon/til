@@ -48,17 +48,28 @@ Applications		Library			Sites			Desktop			Movies
 Documents		Music   Downloads		Pictures		Public
 ```
 ```
+$ pwd
+/Users/hyomin
 $ cd /Users
 $ cd ..
 $ pwd
 /Users
 ```
 ```
+$ pwd
+/Users
 $ cd ./hyomin
 $ cd hyomin
 $ pwd
 /Users/hyomin
 ```
 ```
+$ pwd
+/Users/hyomin
+$ cd ../..
+$ pwd
+/
 $ cd -
+$ pwd
+/Users/hyomin
 ```
